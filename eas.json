@@ -6,11 +6,21 @@
           "android": {
             "image": "latest"
           },
+          "ios": {
+            "image": "latest"
+          }
       },
       "preview": {
         "distribution": "internal"
       },
-      "production": {}
+      "production": {
+          "android": {
+            "image": "latest"
+          },
+          "ios": {
+            "image": "latest"
+          }
+      }
     }
   }
   
