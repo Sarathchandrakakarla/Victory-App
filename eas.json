@@ -1,21 +1,8 @@
 {
-<<<<<<< HEAD
   "build": {
     "preview": {
       "android": {
         "buildType": "apk"
-=======
-    "build": {
-      "development": {
-        "developmentClient": true,
-        "distribution": "internal",
-          "android": {
-            "image": "latest"
-          },
-          "ios": {
-            "image": "latest"
-          }
->>>>>>> 90a33b5495a142524d673cfaa10d8e8d90c9953a
       },
       "channel": "preview"
     },
@@ -23,7 +10,6 @@
       "android": {
         "gradleCommand": ":app:assembleRelease"
       },
-<<<<<<< HEAD
       "channel": "preview2"
     },
     "preview3": {
@@ -39,16 +25,3 @@
     }
   }
 }
-=======
-      "production": {
-          "android": {
-            "image": "latest"
-          },
-          "ios": {
-            "image": "latest"
-          }
-      }
-    }
-  }
-  
->>>>>>> 90a33b5495a142524d673cfaa10d8e8d90c9953a
